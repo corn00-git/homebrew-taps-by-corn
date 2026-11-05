@@ -8,6 +8,7 @@ cask "schoolyear-exams" do
   homepage "https://www.schoolyear.com/"
 
   depends_on arch: :arm64
+  depends_on :macos
 
   app "Schoolyear Exams.app"
 end
